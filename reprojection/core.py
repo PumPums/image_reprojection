@@ -59,6 +59,6 @@ def reproject_images(
         reproj_rgb.append(reproject_out_color)
         reproj_masks.append(reproject_mask)
 
-    reproj_rgb_ = torch.cat(reproj_rgb, dim=0)
-    reproj_masks_ = torch.cat(reproj_masks, dim=0)
-    return reproj_rgb_, reproj_masks_
+    reproj_rgb = torch.cat(reproj_rgb, dim=0)
+    reproj_masks = torch.cat(reproj_masks, dim=0)
+    return reproj_rgb, reproj_masks
