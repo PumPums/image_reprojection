@@ -1,6 +1,6 @@
 ## Image reprojection
 
-In [Monodepth2](https://arxiv.org/abs/1806.01260), the reprojection loss was introduced. However, it was applied only for **perspective cameras**. 
+In [Monodepth2](https://arxiv.org/abs/1806.01260), the reprojection loss was introduced. However, it was applied only for **Perspective cameras**. 
 
 #### Reprojection loss:
 ```math
